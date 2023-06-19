@@ -1,4 +1,6 @@
-﻿namespace Task_02
+﻿using System.Text;
+
+namespace Task_02
 {
     internal class Program
     {
@@ -31,6 +33,9 @@
         }
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+
+
             Console.ReadKey();
         }
     }
