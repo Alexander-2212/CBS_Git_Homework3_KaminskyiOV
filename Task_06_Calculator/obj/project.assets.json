@@ -8,24 +8,31 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/alexander/.nuget/packages/": {}
+    "C:\\Users\\kaminskiy.LS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexander/Projects/CBS_Git_Homework3_KaminskyiOV/Task_06_Calculator/Task_06_Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\kaminskiy.LS\\Source\\Repos\\CBS_Git_Homework3_KaminskyiOV\\Task_06_Calculator\\Task_06_Calculator.csproj",
       "projectName": "Task_06_Calculator",
-      "projectPath": "/Users/alexander/Projects/CBS_Git_Homework3_KaminskyiOV/Task_06_Calculator/Task_06_Calculator.csproj",
-      "packagesPath": "/Users/alexander/.nuget/packages/",
-      "outputPath": "/Users/alexander/Projects/CBS_Git_Homework3_KaminskyiOV/Task_06_Calculator/obj/",
+      "projectPath": "C:\\Users\\kaminskiy.LS\\Source\\Repos\\CBS_Git_Homework3_KaminskyiOV\\Task_06_Calculator\\Task_06_Calculator.csproj",
+      "packagesPath": "C:\\Users\\kaminskiy.LS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kaminskiy.LS\\Source\\Repos\\CBS_Git_Homework3_KaminskyiOV\\Task_06_Calculator\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/alexander/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\kaminskiy.LS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
