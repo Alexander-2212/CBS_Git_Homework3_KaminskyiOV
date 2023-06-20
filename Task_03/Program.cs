@@ -41,6 +41,23 @@ class Program
         return tempArray;
     }
 
+    public static string ToCsvText(int[][] array)
+    {
+        string output = "";
+
+        for (int i = 0; i < array.Length; i++)
+        {
+            for (int j = 0; j < array[i].Length; j++)
+            {
+                output += array[i][j];
+                if (j != array[i].Length - 1) { output += ","; }
+            }
+            if (i != array.Length - 1) { output += "\n"; }
+        }
+
+        return output;
+    }
+
     static void Main(string[] args)
     {
         Console.OutputEncoding = Encoding.Unicode;
